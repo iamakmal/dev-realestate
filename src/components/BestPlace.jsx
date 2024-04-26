@@ -4,10 +4,10 @@ import { StarIcon } from '@heroicons/react/24/solid';
 export default function BestPlace() {
 
     return (
-        <div className="mt-20 mb-20">
+        <div className="bg-[#F9F9F9] mb-20">
             <h1 className="text-3xl text-center font-prata leading-[50px]">Searching For The Best Places?</h1>
             <h1 className="text-md text-center text-gray-400 mb-10">Handpicked properties by our Agents</h1>
-            <div className="grid grid-cols-3 justify-items-center">
+            <div className="grid md:grid-cols-3 justify-items-center">
 
                 <div className="card w-96 bg-base-100 shadow-xl">
                     <figure>
@@ -104,7 +104,7 @@ export default function BestPlace() {
 
             </div>
             <div className="flex justify-center mt-10">
-                <button className="btn bg-main text-white border-0 px-5 rounded-md">Load More</button>
+                <button className="btn bg-main text-white border-0 px-5 rounded-md mb-20">Load More</button>
             </div>
         </div>
     )

@@ -1,5 +1,6 @@
 import './App.css'
 import BestPlace from './components/BestPlace'
+import Demo from './components/Demo'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
@@ -16,6 +17,7 @@ function App() {
     </div>
 
     <BestPlace/>
+    <Demo/>
     </>
   )
 }

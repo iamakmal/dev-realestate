@@ -1,6 +1,7 @@
 import './App.css'
 import Agent from './components/Agent'
 import BestPlace from './components/BestPlace'
+import Blog from './components/Blog'
 import Deal from './components/Deal'
 import Demo from './components/Demo'
 import Hero from './components/Hero'
@@ -26,6 +27,7 @@ function App() {
     <Agent/>
     <Testimonial/>
     <Requests/>
+    <Blog/>
     </>
   )
 }

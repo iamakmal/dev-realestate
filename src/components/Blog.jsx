@@ -15,12 +15,12 @@ export default function Blog() {
                     </figure>
                     <div className="card-body pt-4">
                         <h2 className="text-lg text-center font-prata">10 Quick Tips About Business</h2>
-                        <div className="flex text-gray-400 justify-center px-20">
+                        <div className="flex text-gray-500 justify-center px-20">
                         <CalendarDaysIcon className="size-6"/>
                         <p> June 8, 2021 </p>
                         <ChatBubbleLeftIcon className="size-6"/> <span className="text-sm align-text-top">0</span>
                         </div>
-                        <p className="text-gray-400 text-base text-center">There are variations of passages of Lorems Ipsums available, but then majority.</p>
+                        <p className="text-gray-500 text-base text-center">There are variations of passages of Lorems Ipsums available, but then majority.</p>
                     </div>
                 </div>
 
@@ -30,12 +30,12 @@ export default function Blog() {
                     </figure>
                     <div className="card-body pt-4">
                         <h2 className="text-lg text-center font-prata">Learn The Truth Real Estate</h2>
-                        <div className="flex text-gray-400 justify-center px-20">
+                        <div className="flex text-gray-500 justify-center px-20">
                         <CalendarDaysIcon className="size-6"/>
                         <p> June 8, 2021 </p>
                         <ChatBubbleLeftIcon className="size-6"/> <span className="text-sm align-text-top">0</span>
                         </div>
-                        <p className="text-gray-400 text-base text-center">It is long established fact that a reader will distracted by the readable content.</p>
+                        <p className="text-gray-500 text-base text-center">It is long established fact that a reader will distracted by the readable content.</p>
                     </div>
                 </div>
 
@@ -45,12 +45,12 @@ export default function Blog() {
                     </figure>
                     <div className="card-body pt-4">
                         <h2 className="text-lg text-center font-prata">Skills Learn In Real Estate</h2>
-                        <div className="flex text-gray-400 justify-center px-20">
+                        <div className="flex text-gray-500 justify-center px-20">
                         <CalendarDaysIcon className="size-6"/>
                         <p> June 8, 2021 </p>
                         <ChatBubbleLeftIcon className="size-6"/> <span className="text-sm align-text-top">0</span>
                         </div>
-                        <p className="text-gray-400 text-base text-center">There are many variations of passages ofen Ipsum available majority to suffered.</p>
+                        <p className="text-gray-500 text-base text-center">There are many variations of passages ofen Ipsum available majority to suffered.</p>
                     </div>
                 </div>
             </div>

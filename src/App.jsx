@@ -5,6 +5,7 @@ import Deal from './components/Deal'
 import Demo from './components/Demo'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Requests from './components/Requests'
 import Testimonial from './components/Testimonial'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <Deal/>
     <Agent/>
     <Testimonial/>
+    <Requests/>
     </>
   )
 }

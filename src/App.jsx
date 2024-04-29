@@ -5,6 +5,7 @@ import Deal from './components/Deal'
 import Demo from './components/Demo'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Testimonial from './components/Testimonial'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
     <Demo/>
     <Deal/>
     <Agent/>
+    <Testimonial/>
     </>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Agent() {
     return (
         <>
-            <div className="bg-[#F9F9F9] pt-20 mb-10">
+            <div className="bg-[#F9F9F9] pt-20">
                 <h1 className="text-3xl text-center font-prata mb-16">Agents Make The Difference</h1>
                 <div className="flex flex-wrap gap-10 justify-center pb-10">
 

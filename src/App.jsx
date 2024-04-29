@@ -1,4 +1,5 @@
 import './App.css'
+import Agent from './components/Agent'
 import BestPlace from './components/BestPlace'
 import Deal from './components/Deal'
 import Demo from './components/Demo'
@@ -20,6 +21,7 @@ function App() {
     <BestPlace/>
     <Demo/>
     <Deal/>
+    <Agent/>
     </>
   )
 }

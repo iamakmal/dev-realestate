@@ -4,7 +4,7 @@ export default function Demo() {
   return (
     <>
        <h1 className="text-3xl text-center font-prata leading-[50px] mb-10">Eye Catching XStore Real Estate Demo</h1>
-       <div className="grid grid-cols-4 justify-items-center">
+       <div className="grid md:grid-cols-4 justify-items-center">
 
         <div className="flex flex-col items-center text-center w-56">
             <img src="demo1.png"/>

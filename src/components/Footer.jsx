@@ -48,7 +48,7 @@ export default function Footer() {
 
     return (
         <>
-            <footer className="footer p-10 bg-[#333333] text-white">
+            <footer className="footer p-10 bg-[#333333] text-gray-300">
                 <nav>
                     <h6 className="text-lg font-semibold mb-5 font-prata text-white">Popular Search</h6>
                     <a className="link link-hover">Apartment For Rent</a>
@@ -82,27 +82,33 @@ export default function Footer() {
                     <h6 className="text-lg font-semibold mb-5 font-prata text-white">Sign Up For Newsletter</h6>
                     <fieldset className="form-control w-80">
                         <label className="label mb-5">
-                            <span className="label-text text-xs text-white">Enter your email below to receive a $30 coupon, special offers, exclusive discounts and more!</span>
+                            <span className="label-text text-xs text-gray-300">Enter your email below to receive a $30 coupon, special offers, exclusive discounts and more!</span>
                         </label>
                         <div className="join mb-2">
                             <input type="text" placeholder="Your email address" className="input input-bordered join-item rounded-sm" />
                             <button className="btn bg-white join-item rounded-sm font-normal">SIGN UP</button>
                         </div>
                     </fieldset>
-                    <p className="font-prata text-base">Follow Us</p>
+                    <p className="font-prata text-base text-white">Follow Us</p>
                     {renderSocialMedia()}
                 </form>
             </footer>
-            <footer className="bg-[#333333] text-white">
-            <div className=''>
-                <ul className="flex justify-center gap-5">
-                    <li><a>Home</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>About Us</a></li>
-                    <li><a>Contact Us</a></li>
-                    <li><a>Properties</a></li>
-                    <li><a>WishList</a></li>
-                </ul>
+            <footer className="bg-[#333333] text-gray-300">
+                <div className=''>
+                    <ul className="flex justify-center gap-5">
+                        <li><a>Home</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>About Us</a></li>
+                        <li><a>Contact Us</a></li>
+                        <li><a>Properties</a></li>
+                        <li><a>WishList</a></li>
+                    </ul>
+                </div>
+                <div class="divider before:bg-gray-300 after:bg-gray-300 px-5"></div>
+
+                <div className="flex justify-between items-center px-5 pb-5">
+                    <p>Copyright &copy; 2024 <span className="text-white">R-State</span>, Solution By <span className="text-white">R-State</span></p>
+                    <img src="payment.png" alt="Payment" />
                 </div>
             </footer>
         </>

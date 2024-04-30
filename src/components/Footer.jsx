@@ -48,7 +48,7 @@ export default function Footer() {
 
     return (
         <>
-            <footer className="footer p-10 bg-[#333333] text-gray-300">
+            <footer className="footer px-20 pt-20 bg-[#333333] text-gray-300">
                 <nav>
                     <h6 className="text-lg font-semibold mb-5 font-prata text-white">Popular Search</h6>
                     <a className="link link-hover">Apartment For Rent</a>
@@ -93,7 +93,7 @@ export default function Footer() {
                     {renderSocialMedia()}
                 </form>
             </footer>
-            <footer className="bg-[#333333] text-gray-300">
+            <footer className="bg-[#333333] text-gray-300 px-20 pt-10 pb-10">
                 <div className=''>
                     <ul className="flex justify-center gap-5">
                         <li><a>Home</a></li>
@@ -106,7 +106,7 @@ export default function Footer() {
                 </div>
                 <div class="divider before:bg-gray-300 after:bg-gray-300 px-5"></div>
 
-                <div className="flex justify-between items-center px-5 pb-5">
+                <div className="flex justify-between items-center px-5">
                     <p>Copyright &copy; 2024 <span className="text-white">R-State</span>, Solution By <span className="text-white">R-State</span></p>
                     <img src="payment.png" alt="Payment" />
                 </div>

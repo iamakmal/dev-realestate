@@ -3,7 +3,7 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div className="navbar bg-transparent">
-  <div className="navbar-start">
+  <div className="navbar-start lg:hidden">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -29,13 +29,14 @@ export default function Navbar() {
         </li>
       </ul>
     </div>
-    <div className="w-1/4">
+  </div>
+  <div className="hidden lg:flex lg:justify-between gap-36">
+  <div className="">
     <a className="btn btn-ghost text-2xl text-[#0C7F40] ml-2 -mb-3">R-STATE</a>
     <p className="text-xs text-center">Real Estate</p>
     </div>
-  </div>
-  <div className="navbar-start hidden lg:flex w-3/4 mr-16">
-    <ul className="menu menu-horizontal px-1 group text-lg">
+    <div>
+    <ul className="menu menu-horizontal px-1 group text-base">
     <li>
         <a className="hover:text-main hover:bg-transparent hover:underline hover:underline-offset-8">Home</a>
     </li>
@@ -55,6 +56,7 @@ export default function Navbar() {
         <a className="hover:text-main hover:bg-transparent hover:underline hover:underline-offset-8">Contacts</a>
     </li>
     </ul>
+    </div>
   </div>
 </div>
   )

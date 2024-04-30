@@ -3,7 +3,7 @@ import React from 'react'
 export default function Testimonial() {
     return (
         <>
-            <div className="bg-cover bg-white bg-center bg-blend-luminosity" style={{backgroundImage:'url("testimonial.jpg")'}}>
+            <div className="bg-cover bg-center" style={{backgroundImage:'url("testimonial.jpg")'}}>
                 <div>
                 <h1 className="text-3xl text-center font-prata leading-[50px] pt-10">Client's Testimonials</h1>
                 <h1 className="text-md text-center text-gray-400 mb-16">Lorem ipsum dolor sit amet, conectur adipscing elitsed do eiusmod</h1>

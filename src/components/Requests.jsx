@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Requests() {
     return (
-        <div className="bg-cover bg-[#168771] bg-center bg-blend-luminosity text-white" style={{ backgroundImage: 'url("testimonial.jpg")' }}>
+        <div className="bg-cover bg-center text-white" style={{ backgroundImage: 'url("request.jpg")' }}>
             <h1 className="text-3xl text-center font-prata leading-[50px] pt-10">Requests Your Property Valuation</h1>
             <div className="flex flex-col w-[790px] mx-auto">
                 <h1 className="text-left">Personal Information:</h1>

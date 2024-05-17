@@ -1,5 +1,6 @@
 import React from 'react'
 import { StarIcon } from '@heroicons/react/24/solid';
+import { Link } from 'react-router-dom';
 
 export default function BestPlace() {
 
@@ -10,9 +11,11 @@ export default function BestPlace() {
             <div className="grid md:grid-cols-3 justify-items-center">
 
                 <div className="card w-96 bg-base-100 shadow-xl">
+                    <Link to="/details">
                     <figure>
-                        <img src="bp1.jpg" alt="house1" className="w-full" />
+                    <img src="bp1.jpg" alt="house1" className="w-full" /> 
                     </figure>
+                    </Link>   
                     <div className="card-body">
                         <h2 className="text-lg text-center font-prata">Historical Grand Family Villa Rio</h2>
                         <div className="flex justify-center flex-row-reverse">

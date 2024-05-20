@@ -1,3 +1,22 @@
+### Prerequisites
+- Visual Studio Code or any other code editor
+
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd dev-realestate
+2. **Install Dependencies**
+    ```bash
+    npm i
+4. **Run App:**
+   ```bash
+   npm run dev
+
+### Screeshots
+![dev real estate](https://github.com/iamakmal/dev-realestate/assets/95517227/61dd7014-8295-4a43-bafa-4a9903d1eac0)
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -2,11 +2,11 @@ import React from 'react'
 import { StarIcon } from '@heroicons/react/24/solid';
 import { Link } from 'react-router-dom';
 
-export default function BestPlace() {
+export default function BestPlace(props) {
 
     return (
         <div className="bg-[#F9F9F9] mb-20 pt-20">
-            <h1 className="text-3xl text-center font-prata leading-[50px]">Searching For The Best Places?</h1>
+            <h1 className="text-3xl text-center font-prata leading-[50px]">{props && props.title ? props.title : "Searching For The Best Places?"}</h1>
             <h1 className="text-md text-center text-gray-400 mb-10">Handpicked properties by our Agents</h1>
             <div className="grid md:grid-cols-3 justify-items-center">
 
